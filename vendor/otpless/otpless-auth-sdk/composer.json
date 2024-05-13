@@ -1,0 +1,31 @@
+{
+    "name": "otpless/otpless-auth-sdk",
+    "description": "SDK for Backend PHP SDK for resolving idToken and more.",
+    "type": "library",
+    "license": "MIT",
+    
+    "autoload": {
+        "psr-4": {
+            "Otpless\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "otpless"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+        "firebase/php-jwt": "^5.0",
+        "phpseclib/phpseclib": "^3.0"
+    },
+    "require-dev": {},
+    "extra": {
+        "branch-alias": {
+            "main": "1.0.x-dev"
+        }
+    }
+}

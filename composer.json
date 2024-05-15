@@ -1,0 +1,5 @@
+{
+    "require": {
+        "otpless/otpless-auth-sdk": "1.20.0"
+    }
+}
